@@ -74,8 +74,8 @@ function Home({
           <div className="prev">
             <button
               onClick={handleoperation}
-              disabled={page == 1}
-              aria-disabled={page == 1}
+              disabled={page === 1}
+              aria-disabled={page === 1}
             >
               prev
             </button>
@@ -93,8 +93,8 @@ function Home({
           <div className="next">
             <button
               onClick={handleoperation}
-              disabled={page == totalpage}
-              aria-disabled={page == totalpage}
+              disabled={page === totalpage}
+              aria-disabled={page === totalpage}
             >
               next
             </button>

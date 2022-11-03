@@ -14,7 +14,7 @@ function Repo() {
       .then((response) => {
         setDisplay(response);
       });
-  }, []);
+  }, [username,projectname]);
   return (
     <>
     <Helmet>
