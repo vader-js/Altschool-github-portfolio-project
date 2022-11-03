@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif !important;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+#root{
+    width: 100%;
+    height: 100%;
+}
+.repo {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color: #3aafa9;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .repowrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+  }
+  
+  .reporesult{
+      flex: 2;
+      margin-top: 50px;
+  }
+  
+  .home h1 {
+    font-size: 40px;
+    flex: 1.5;
+  }
+  
+  .summarytext {
+    flex: 3;
+  }
+  
+  .summaryparagraph {
+    max-width: 490px;
+    max-height: 90px;
+    line-height: 1.5;
+  }
+  .previous{
+    flex: 1;  
+  }
+  .previous a{
+    color: white;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: .5s;
+    text-decoration: none;
+  }
+
+  .previous a:hover{
+    background-color: aliceblue;
+    color: black;
+  }
+  .previous2{
+    display: none;
+  }
+
+  .previous2 a{
+    color: white;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: .5s;
+    text-decoration: none;
+  }
+
+  .previous2 a:hover{
+    background-color: aliceblue;
+    color: black;
+  }
+
+  .top img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .topmenu{
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .top-right{
+    margin-left: 15px;
+    line-height: 1.5;
+  }
+
+  .middle{
+    margin-top: 10px;
+  }
+
+  .usernamehead{
+    font-weight: 500px;
+  }
+  
+  .resultwrapper{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    background: rgb(245, 224, 224);
+    color: black;
+    max-width: 500px;
+    font-size: small;
+  }
+
+  .status{
+    border-radius: 10px;
+    padding: 3px;
+    width: 70px;
+    background: rgb(88, 238, 88);
+    text-align: center;
+    color: white;
+  }
+
+  .middle-low{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .lists{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .list{
+    padding: 0;
+  }
+
+  .topic{
+    color: red;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  .topiclists{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media screen and (max-width: 480px) {
+    .repo{
+        display: block;
+        height: 100vh;
+        padding: 10px;
+        width: 100%;
+        /* margin: 0; */
+    }
+    .repowrapper{
+        max-width: 350px;
+        margin: 30px 0;
+    }
+    .summarytext{
+        max-width: 350px;
+    }
+    .reporesult{
+        max-width: 350px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .previous{
+        display: none;
+    }
+    .previous2{
+        display: block;
+        margin-top: 20px;
+        position: absolute;
+        bottom: 20px;
+    }
+  }
