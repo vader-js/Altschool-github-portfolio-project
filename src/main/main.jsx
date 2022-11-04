@@ -3,7 +3,6 @@ import AppRouter from "../Router";
 import "./main.css";
 
 function Main() {
-
   return (
     <div className="main">
       <AppRouter />
