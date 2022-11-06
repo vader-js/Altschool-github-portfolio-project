@@ -39,7 +39,9 @@ the list details:
 - A Url
 
 on Clicking the Url, you are directed to a page providing more imformation about the particular repository in a card-like portfolio.
+
 ![card-like portfolio](/src/Assets/images/card-portfolio.png)
+
 This card-like portfolio has a "view repo" link that redirects you to the Github page containing that particular repository.
 
 # Hosting Link
