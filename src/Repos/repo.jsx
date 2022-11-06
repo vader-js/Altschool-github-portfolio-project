@@ -23,7 +23,7 @@ function Repo() {
           name="description"
           content="a mini-portfolio showcasing your github repository data "
         />
-        <link rel="canonical" href="/info/:username/:projectname" />
+        <link rel="canonical" href="/portfolio" />
       </Helmet>
       <div className="repo">
         <div className="repowrapper">

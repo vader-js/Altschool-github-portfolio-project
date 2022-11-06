@@ -26,7 +26,7 @@ function Home({
           name="description"
           content="search using your github username and get a mini-portfolio"
         />
-        <link rel="canonical" href="/" />
+        <link rel="canonical" href="/home" />
       </Helmet>
       <div className="home">
         <div className="homewrapper">

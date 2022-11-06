@@ -1,1 +1,3 @@
 https://vaders-github-portfolio.netlify.app/
+https://vaders-github-portfolio.netlify.app/home
+https://vaders-github-portfolio.netlify.app//info/:username/:projectname
